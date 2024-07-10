@@ -35,6 +35,18 @@ const profiles = [
 //MOSTRO I DATI IN CONSOLE//
 console.log(profiles);
 //AVVIO CICLO FOR PER GENERARE UNA STRINGA DI DATI//
+
+let members = document.getElementById('utenti');
+
 for (let i = 0; i < profiles.length; i++) {
     console.log(profiles[i].nome, profiles[i].ruolo, profiles[i].img);
+
+   members.innerHTML += `${profiles[i].nome, profiles[i].ruolo, profiles[i].img } <br>`;
+
+    
+
+    
+        
+
 }
+
