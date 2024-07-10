@@ -32,3 +32,5 @@ const profiles = [
         ruolo: 'Grapich Designer' 
     },
 ]
+
+console.log(profiles);
