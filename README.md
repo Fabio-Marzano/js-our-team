@@ -14,6 +14,10 @@ Scott Estrada	- Developer - scott-estrada-developer.jpg
 Barbara Ramos - Graphic Designer - barbara-ramos-graphic-designer.jpg
 
 SOLUZIONE
--Creo un array in cui vengono contenute le descrizioni dei film. 
--
+1-Creo un array in cui vengono contenute le descrizioni degli utenti. 
+2- Avvio un ciclo for per generare una stringa con i dati degli utenti.
+3-Mostro il risultato in console. 
+4-Recupero l'elemento dal dom.
+5-Richiamo l'elemento e lo inietto in HTML. 
+6-Mostro il risultato a video. 
 
