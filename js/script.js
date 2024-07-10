@@ -37,10 +37,10 @@ console.log(profiles);
 //AVVIO CICLO FOR PER GENERARE UNA STRINGA DI DATI//
 
 let members = document.getElementById('utenti');
-
+//RECUPERO L'ELEMENTO DAL DOM//
 for (let i = 0; i < profiles.length; i++) {
     console.log(profiles[i].nome, profiles[i].ruolo, profiles[i].img);
-
+    //RICHIAMO IL DOM E LO INIETTO IN HTML//
    members.innerHTML += `${profiles[i].nome, profiles[i].ruolo, profiles[i].img } <br>`;
 
     
